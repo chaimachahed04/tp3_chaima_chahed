@@ -1,14 +1,14 @@
-[gd_scene load_steps=21 format=4 uid="uid://cr8phjv42ursn"]
+[gd_scene load_steps=21 format=4 uid="uid://dsx7on7j3ci5g"]
 
-[ext_resource type="Texture2D" uid="uid://b6wjuocx0r5rw" path="res://assets/images/Tilemap/Terrain (16x16).png" id="1_ksju7"]
-[ext_resource type="Texture2D" uid="uid://chf2erfkyk31s" path="res://assets/images/Background/Green.png" id="1_nsrm0"]
-[ext_resource type="PackedScene" uid="uid://gnmw476gxg65" path="res://scenes/player.tscn" id="2_6iamk"]
-[ext_resource type="PackedScene" uid="uid://cc0am8pfu1ola" path="res://scenes/snail.tscn" id="4_x42e6"]
-[ext_resource type="PackedScene" uid="uid://csw65vf7aj384" path="res://pommes.tscn" id="5_6761a"]
-[ext_resource type="Texture2D" uid="uid://bn2wrc5ltoduu" path="res://assets/images/Tilemap/Checkpoint (Flag Idle)(64x64).png" id="6_sk5k4"]
+[ext_resource type="Texture2D" uid="uid://chf2erfkyk31s" path="res://assets/images/Background/Green.png" id="1_qpwj6"]
+[ext_resource type="Texture2D" uid="uid://b6wjuocx0r5rw" path="res://assets/images/Tilemap/Terrain (16x16).png" id="2_ibugp"]
+[ext_resource type="PackedScene" uid="uid://gnmw476gxg65" path="res://scenes/player.tscn" id="3_8qukl"]
+[ext_resource type="PackedScene" uid="uid://cc0am8pfu1ola" path="res://scenes/snail.tscn" id="4_3p04p"]
+[ext_resource type="PackedScene" uid="uid://csw65vf7aj384" path="res://pommes.tscn" id="5_qsp8v"]
+[ext_resource type="Texture2D" uid="uid://bn2wrc5ltoduu" path="res://assets/images/Tilemap/Checkpoint (Flag Idle)(64x64).png" id="6_nt80m"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_6iamk"]
-texture = ExtResource("1_ksju7")
+texture = ExtResource("2_ibugp")
 0:0/0 = 0
 1:0/0 = 0
 2:0/0 = 0
@@ -169,43 +169,43 @@ physics_layer_0/collision_layer = 1
 sources/0 = SubResource("TileSetAtlasSource_6iamk")
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_oc4kc"]
-atlas = ExtResource("6_sk5k4")
+atlas = ExtResource("6_nt80m")
 region = Rect2(0, 0, 64, 64)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_s8va5"]
-atlas = ExtResource("6_sk5k4")
+atlas = ExtResource("6_nt80m")
 region = Rect2(64, 0, 64, 64)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_dga24"]
-atlas = ExtResource("6_sk5k4")
+atlas = ExtResource("6_nt80m")
 region = Rect2(128, 0, 64, 64)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_qxy0u"]
-atlas = ExtResource("6_sk5k4")
+atlas = ExtResource("6_nt80m")
 region = Rect2(192, 0, 64, 64)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_excbq"]
-atlas = ExtResource("6_sk5k4")
+atlas = ExtResource("6_nt80m")
 region = Rect2(256, 0, 64, 64)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_iav0o"]
-atlas = ExtResource("6_sk5k4")
+atlas = ExtResource("6_nt80m")
 region = Rect2(320, 0, 64, 64)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_dnkej"]
-atlas = ExtResource("6_sk5k4")
+atlas = ExtResource("6_nt80m")
 region = Rect2(384, 0, 64, 64)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_mm8aj"]
-atlas = ExtResource("6_sk5k4")
+atlas = ExtResource("6_nt80m")
 region = Rect2(448, 0, 64, 64)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_wtwp4"]
-atlas = ExtResource("6_sk5k4")
+atlas = ExtResource("6_nt80m")
 region = Rect2(512, 0, 64, 64)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_iwr0g"]
-atlas = ExtResource("6_sk5k4")
+atlas = ExtResource("6_nt80m")
 region = Rect2(576, 0, 64, 64)
 
 [sub_resource type="SpriteFrames" id="SpriteFrames_bahl2"]
@@ -255,39 +255,39 @@ size = Vector2(67, 144)
 texture_filter = 1
 offset_right = 1280.0
 offset_bottom = 720.0
-texture = ExtResource("1_nsrm0")
+texture = ExtResource("1_qpwj6")
 stretch_mode = 1
 
 [node name="TileMapLayer" type="TileMapLayer" parent="."]
 texture_filter = 1
 scale = Vector2(3, 3)
-tile_map_data = PackedByteArray("AAAAAAAAAAAHAAkAAAABAAAAAAAHAAkAAAACAAAAAAAHAAkAAAADAAAAAAAHAAkAAAAEAAAAAAAHAAkAAAAFAAAAAAAHAAkAAAAGAAAAAAAHAAkAAAAHAAAAAAAHAAkAAAAIAAAAAAAHAAkAAAAJAAAAAAAHAAkAAAAKAAAAAAAHAAkAAAALAAAAAAAHAAkAAAAMAAAAAAAHAAkAAAANAAAAAAAHAAkAAAAOAAAAAAAHAAkAAAAPAAAAAAAHAAkAAAAQAAAAAAAHAAkAAAARAAAAAAAHAAkAAAASAAAAAAAHAAkAAAATAAAAAAAHAAkAAAAUAAAAAAAHAAkAAAAVAAAAAAAHAAkAAAAWAAAAAAAHAAkAAAAXAAAAAAAHAAkAAAAYAAAAAAAHAAkAAAAZAAAAAAAHAAkAAAAaAAAAAAAHAAkAAAAAAAEAAAAHAAkAAAAAAAIAAAAHAAkAAAAAAAMAAAAHAAkAAAAAAAQAAAAHAAkAAAAAAAUAAAAHAAkAAAAAAAYAAAAHAAkAAAAAAAcAAAAHAAkAAAAAAAgAAAAHAAkAAAAAAAkAAAAHAAkAAAAAAAoAAAAHAAkAAAAAAAsAAAAHAAkAAAAAAAwAAAAHAAkAAAAAAA0AAAAHAAkAAAAAAA4AAAAHAAkAAAABAA4AAAAHAAkAAAACAA4AAAAHAAkAAAADAA4AAAAHAAkAAAAEAA4AAAAHAAkAAAAFAA4AAAAHAAkAAAAGAA4AAAAHAAkAAAAHAA4AAAAHAAkAAAAIAA4AAAAHAAkAAAAJAA4AAAAHAAkAAAAKAA4AAAAHAAkAAAALAA4AAAAHAAkAAAAMAA4AAAAHAAkAAAANAA4AAAAHAAkAAAAOAA4AAAAHAAkAAAAPAA4AAAAHAAkAAAAQAA4AAAAHAAkAAAARAA4AAAAHAAkAAAASAA4AAAAHAAkAAAATAA4AAAAHAAkAAAAUAA4AAAAHAAkAAAAVAA4AAAAHAAkAAAAWAA4AAAAHAAkAAAAXAA4AAAAHAAkAAAAYAA4AAAAHAAkAAAAZAA4AAAAHAAkAAAAaAA4AAAAIAAkAAAAaAA0AAAAIAAkAAAAaAAwAAAAIAAkAAAAaAAsAAAAIAAkAAAAaAAoAAAAIAAkAAAAaAAkAAAAIAAkAAAAaAAgAAAAIAAkAAAAaAAcAAAAIAAkAAAAaAAYAAAAIAAkAAAAaAAUAAAAIAAkAAAAaAAEAAAAIAAkAAAABAA0AAAAGAAkAAAACAA0AAAAHAAkAAAADAA0AAAAIAAkAAAABAAwAAAAGAAgAAAACAAwAAAAHAAgAAAADAAwAAAAIAAgAAAAOAAcAAAAGAAgAAAAPAAcAAAAHAAgAAAAQAAcAAAAIAAgAAAAWAAUAAAAHAAgAAAAXAAUAAAAHAAgAAAAYAAUAAAAHAAgAAAAZAAUAAAAHAAgAAAAVAAUAAAAHAAgAAAAUAAUAAAAHAAgAAAATAAUAAAAHAAgAAAATAAYAAAAHAAkAAAAUAAYAAAAHAAkAAAAVAAYAAAAHAAkAAAAWAAYAAAAHAAkAAAAXAAYAAAAHAAkAAAAYAAYAAAAHAAkAAAAZAAYAAAAHAAkAAAAOAAwAAAAGAAgAAAAPAAwAAAAHAAgAAAAOAA0AAAAGAAkAAAAPAA0AAAAHAAkAAAAIAAkAAAAHAAgAAAAJAAkAAAAIAAgAAAABAAcAAAAHAAgAAAACAAcAAAAIAAgAAAA=")
+tile_map_data = PackedByteArray("AAAAAAAAAAAHAAkAAAABAAAAAAAHAAkAAAACAAAAAAAHAAkAAAADAAAAAAAHAAkAAAAEAAAAAAAHAAkAAAAFAAAAAAAHAAkAAAAGAAAAAAAHAAkAAAAHAAAAAAAHAAkAAAAIAAAAAAAHAAkAAAAJAAAAAAAHAAkAAAAKAAAAAAAHAAkAAAALAAAAAAAHAAkAAAAMAAAAAAAHAAkAAAANAAAAAAAHAAkAAAAOAAAAAAAHAAkAAAAPAAAAAAAHAAkAAAAQAAAAAAAHAAkAAAARAAAAAAAHAAkAAAASAAAAAAAHAAkAAAATAAAAAAAHAAkAAAAUAAAAAAAHAAkAAAAVAAAAAAAHAAkAAAAWAAAAAAAHAAkAAAAXAAAAAAAHAAkAAAAYAAAAAAAHAAkAAAAZAAAAAAAHAAkAAAAaAAAAAAAHAAkAAAAAAAEAAAAHAAkAAAAAAAIAAAAHAAkAAAAAAAMAAAAHAAkAAAAAAAQAAAAHAAkAAAAAAAUAAAAHAAkAAAAAAAYAAAAHAAkAAAAAAAcAAAAHAAkAAAAAAAgAAAAHAAkAAAAAAAkAAAAHAAkAAAAAAAoAAAAHAAkAAAAAAAsAAAAHAAkAAAAAAAwAAAAHAAkAAAAAAA0AAAAHAAkAAAAAAA4AAAAHAAkAAAABAA4AAAAHAAkAAAACAA4AAAAHAAkAAAADAA4AAAAHAAkAAAAEAA4AAAAHAAkAAAAFAA4AAAAHAAkAAAAGAA4AAAAHAAkAAAAHAA4AAAAHAAkAAAAIAA4AAAAHAAkAAAAJAA4AAAAHAAkAAAAKAA4AAAAHAAkAAAALAA4AAAAHAAkAAAAMAA4AAAAHAAkAAAANAA4AAAAHAAkAAAAOAA4AAAAHAAkAAAAPAA4AAAAHAAkAAAAQAA4AAAAHAAkAAAARAA4AAAAHAAkAAAASAA4AAAAHAAkAAAATAA4AAAAHAAkAAAAUAA4AAAAHAAkAAAAVAA4AAAAHAAkAAAAWAA4AAAAHAAkAAAAXAA4AAAAHAAkAAAAYAA4AAAAHAAkAAAAZAA4AAAAHAAkAAAAaAA4AAAAIAAkAAAAaAA0AAAAIAAkAAAAaAAwAAAAIAAkAAAAaAAsAAAAIAAkAAAAaAAoAAAAIAAkAAAAaAAkAAAAIAAkAAAAaAAgAAAAIAAkAAAAaAAcAAAAIAAkAAAAaAAYAAAAIAAkAAAAaAAUAAAAIAAkAAAAaAAEAAAAIAAkAAAAWAAUAAAAHAAgAAAAXAAUAAAAHAAgAAAAYAAUAAAAHAAgAAAAZAAUAAAAHAAgAAAAWAAYAAAAHAAkAAAAXAAYAAAAHAAkAAAAYAAYAAAAHAAkAAAAZAAYAAAAHAAkAAAABAAsAAAAHAAkAAAABAAwAAAAHAAkAAAABAA0AAAAHAAkAAAACAAsAAAAHAAkAAAACAAwAAAAHAAkAAAACAA0AAAAHAAkAAAABAAoAAAAGAAgAAAACAAoAAAAHAAgAAAADAAoAAAAIAAgAAAADAAsAAAAHAAkAAAADAAwAAAAHAAkAAAADAA0AAAAHAAkAAAAEAAwAAAAHAAgAAAAEAA0AAAAHAAkAAAAFAA0AAAAHAAkAAAAGAA0AAAAHAAkAAAAHAA0AAAAHAAkAAAAIAA0AAAAHAAkAAAAJAA0AAAAHAAkAAAAKAA0AAAAHAAkAAAALAA0AAAAHAAkAAAAMAA0AAAAHAAkAAAANAA0AAAAHAAkAAAAOAA0AAAAHAAkAAAAPAA0AAAAHAAkAAAASAA0AAAAHAAkAAAATAA0AAAAHAAkAAAARAA0AAAAHAAkAAAAQAA0AAAAHAAkAAAAUAA0AAAAHAAkAAAAVAA0AAAAHAAkAAAAWAA0AAAAHAAkAAAAXAA0AAAAHAAkAAAAYAA0AAAAHAAkAAAAZAA0AAAAHAAkAAAAFAAwAAAAHAAgAAAAGAAwAAAAHAAgAAAAHAAwAAAAHAAgAAAAIAAwAAAAHAAgAAAAJAAwAAAAHAAgAAAAKAAwAAAAHAAgAAAALAAwAAAAHAAgAAAAMAAwAAAAHAAgAAAANAAwAAAAHAAgAAAAOAAwAAAAHAAgAAAAPAAwAAAAHAAgAAAAQAAwAAAAHAAgAAAARAAwAAAAHAAgAAAASAAwAAAAHAAgAAAATAAwAAAAHAAgAAAAUAAwAAAAHAAgAAAAVAAwAAAAHAAgAAAAWAAwAAAAHAAgAAAAXAAwAAAAHAAgAAAAYAAwAAAAHAAgAAAAZAAwAAAAHAAgAAAAOAAYAAAAGAAgAAAAPAAYAAAAHAAgAAAAQAAYAAAAIAAgAAAAHAAcAAAAGAAgAAAAIAAcAAAAHAAgAAAAJAAcAAAAIAAgAAAA=")
 tile_set = SubResource("TileSet_nsrm0")
 
-[node name="player" parent="." instance=ExtResource("2_6iamk")]
-position = Vector2(107, 523)
+[node name="player" parent="." instance=ExtResource("3_8qukl")]
+position = Vector2(120, 431.00003)
 
 [node name="Enemies" type="Node2D" parent="."]
 
-[node name="Snail" parent="Enemies" instance=ExtResource("4_x42e6")]
-position = Vector2(535, 636)
+[node name="Snail" parent="Enemies" instance=ExtResource("4_3p04p")]
+position = Vector2(445, 542)
 
-[node name="Snail2" parent="Enemies" instance=ExtResource("4_x42e6")]
-position = Vector2(1137, 634)
+[node name="Snail2" parent="Enemies" instance=ExtResource("4_3p04p")]
+position = Vector2(1079, 541)
 
 [node name="Apples" type="Node2D" parent="."]
 
-[node name="pommes" parent="Apples" instance=ExtResource("5_6761a")]
-position = Vector2(735, 261)
+[node name="pommes" parent="Apples" instance=ExtResource("5_qsp8v")]
+position = Vector2(746, 267)
 
-[node name="pommes2" parent="Apples" instance=ExtResource("5_6761a")]
-position = Vector2(222, 277)
+[node name="pommes2" parent="Apples" instance=ExtResource("5_qsp8v")]
+position = Vector2(238, 306)
 
-[node name="pommes3" parent="Apples" instance=ExtResource("5_6761a")]
-position = Vector2(721, 509)
+[node name="pommes3" parent="Apples" instance=ExtResource("5_qsp8v")]
+position = Vector2(758, 532)
 
-[node name="pommes4" parent="Apples" instance=ExtResource("5_6761a")]
-position = Vector2(1106, 195)
+[node name="pommes4" parent="Apples" instance=ExtResource("5_qsp8v")]
+position = Vector2(1148, 220)
 
 [node name="Flag" type="AnimatedSprite2D" parent="."]
 texture_filter = 1
