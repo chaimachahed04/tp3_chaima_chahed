@@ -265,7 +265,7 @@ tile_map_data = PackedByteArray("AAAAAAAAAAAHAAkAAAABAAAAAAAHAAkAAAACAAAAAAAHAAk
 tile_set = SubResource("TileSet_nsrm0")
 
 [node name="player" parent="." instance=ExtResource("3_8qukl")]
-position = Vector2(120, 431.00003)
+position = Vector2(120, 431)
 
 [node name="Enemies" type="Node2D" parent="."]
 
@@ -296,7 +296,7 @@ scale = Vector2(2, 2)
 sprite_frames = SubResource("SpriteFrames_bahl2")
 autoplay = "default"
 frame = 7
-frame_progress = 0.94418615
+frame_progress = 0.944186
 
 [node name="Exit" type="Area2D" parent="."]
 position = Vector2(1293, 122)

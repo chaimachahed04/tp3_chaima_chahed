@@ -258,7 +258,7 @@ animation = &"dying"
 autoplay = "idle"
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
-position = Vector2(0.5, 1.5000005)
+position = Vector2(0.5, 1.5)
 shape = SubResource("RectangleShape2D_qlg0r")
 
 [node name="jumpsound" type="AudioStreamPlayer2D" parent="."]
@@ -266,3 +266,6 @@ stream = ExtResource("6_tuyoq")
 
 [node name="deathsound" type="AudioStreamPlayer2D" parent="."]
 stream = ExtResource("7_fjrip")
+
+[node name="Camera2D" type="Camera2D" parent="."]
+zoom = Vector2(1.92, 1.92)

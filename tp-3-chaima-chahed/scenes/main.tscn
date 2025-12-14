@@ -6,7 +6,7 @@
 [ext_resource type="AudioStream" uid="uid://c8cbpb13c8rnr" path="res://assets/sounds/music.ogg" id="4_jyhfs"]
 
 [sub_resource type="StyleBoxFlat" id="StyleBoxFlat_0wfyh"]
-bg_color = Color(0.9773899, 0.6924997, 0.7599702, 1)
+bg_color = Color(0.97739, 0.6925, 0.75997, 1)
 border_width_left = 2
 border_width_top = 2
 border_width_right = 2

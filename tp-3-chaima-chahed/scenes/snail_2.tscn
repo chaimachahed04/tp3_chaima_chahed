@@ -1,0 +1,8 @@
+[gd_scene load_steps=2 format=3 uid="uid://h3theruct4we"]
+
+[ext_resource type="PackedScene" uid="uid://cc0am8pfu1ola" path="res://scenes/snail.tscn" id="1_kfg1u"]
+
+[node name="Snail2" instance=ExtResource("1_kfg1u")]
+
+[node name="AnimatedSprite2D" parent="." index="0"]
+autoplay = "running_B"

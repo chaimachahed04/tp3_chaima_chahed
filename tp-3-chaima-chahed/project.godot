@@ -11,8 +11,8 @@ config_version=5
 [application]
 
 config/name="tp3_chaima_chahed"
-run/main_scene="res://scenes/main.tscn"
-config/features=PackedStringArray("4.5", "GL Compatibility")
+run/main_scene="uid://mn1jc8nqmn46"
+config/features=PackedStringArray("4.4", "GL Compatibility")
 config/icon="res://icon.svg"
 
 [display]
