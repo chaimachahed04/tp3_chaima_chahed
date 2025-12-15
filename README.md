@@ -8,7 +8,7 @@ Ce README explique **comment le jeu fonctionne**, pas comment le coder ligne par
 
 ---
 
-## 🎮 Concept du jeu
+## Concept du jeu
 
 Le joueur contrôle un personnage qui peut :
 - Se déplacer à gauche et à droite
@@ -20,7 +20,7 @@ L’objectif est de survivre, accumuler un maximum de points et éviter de perdr
 
 ---
 
-## 🧱 Structure générale du jeu
+## Structure générale du jeu
 
 Le jeu est organisé en plusieurs **scènes Godot** :
 - Une scène **Menu**
@@ -31,7 +31,7 @@ Chaque scène a un rôle précis et communique avec les autres via des signaux o
 
 ---
 
-## 🧍‍♂️ Le joueur
+##  Le joueur
 
 Le joueur est basé sur un personnage 2D avec :
 - Un système de **gravité**
@@ -45,7 +45,7 @@ Le joueur est basé sur un personnage 2D avec :
 
 ---
 
-## 🐌 Les ennemis (Snails)
+##  Les ennemis (Snails)
 
 Les escargots remplacent les Goombas classiques.
 
@@ -61,7 +61,7 @@ Ils utilisent :
 
 ---
 
-## 🍎 Les collectibles (Pommes)
+## Les collectibles (Pommes)
 
 Les pommes remplacent les pièces.
 
@@ -75,7 +75,7 @@ Les pommes servent uniquement à augmenter le score, pas les vies.
 
 ---
 
-## ⭐ Système de score
+##  Système de score
 
 Le score est un élément central du jeu.
 
@@ -90,7 +90,7 @@ Le score est un élément central du jeu.
 
 ---
 
-## 🧭 Menu principal
+##  Menu principal
 
 Le menu est la première scène affichée au lancement du jeu.
 
@@ -121,7 +121,7 @@ Le Game Over permet de :
 
 ---
 
-## 🔄 Gestion des scènes
+##  Gestion des scènes
 
 Le jeu repose sur :
 - Des **changements de scènes**
@@ -132,7 +132,7 @@ Cela permet un projet clair, modulable et facile à améliorer.
 
 ---
 
-## 🚀 Extensions possibles
+##  Extensions possibles
 
 - Ajouter plusieurs niveaux
 - Ajouter des power-ups
@@ -142,16 +142,11 @@ Cela permet un projet clair, modulable et facile à améliorer.
 
 ---
 
-## 🛠️ Moteur utilisé
+##  Moteur utilisé
 
 - **Godot Engine 4.x**
 - Jeu 2D
 - GDScript
 
 ---
-
-## 📄 Licence
-
-Projet éducatif / personnel  
-Libre à modifier et améliorer
 
