@@ -1,10 +1,12 @@
 extends Node2D
 @onready var scorelabel: Label = $HUD/scorepanel/scorelabel
 @onready var fade: ColorRect = $HUD/Fade
+@onready var gos = $HUD/game_over
 
 var level: int = 1
 var score: int = 0
 var current_level_root: Node = null
+
 
 # Called when the node enters the scene tree for the first time.
 func _ready() -> void:
@@ -79,7 +81,8 @@ func _on_exit_body_entered(body: Node2D) -> void:
 	
 func _on_player_died(body):
 	body.die()
-	await _load_level(level, false, true)
+	await get_tree().create_timer(1.5).timeout
+	gos.visible = true
 	
 	
 	
