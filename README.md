@@ -104,7 +104,7 @@ Le menu est la première scène affichée au lancement du jeu.
 
 ---
 
-## 💀 Game Over
+## Game Over
 
 L’écran de Game Over apparaît lorsque :
 - Le joueur n’a plus de vies
